@@ -1,0 +1,23 @@
+.container .table,th,td{
+	border: 1px solid black;
+	padding: 15px;
+}
+
+.container{
+	font-family: "Times New Roman", Times, serif;
+	font-size:18;
+}
+
+.container .row{
+	margin-right: 0px;
+	margin-bottom: 20px;
+}
+
+.jumbotron-fluid{
+	background-image: url('https://cdnmedia.starcertification.org/Content/Images/Banner/New/Ethical%20Hacking%20Expert.png');
+	background-size: cover;
+}
+
+.container .img{
+	border: 1px;
+}

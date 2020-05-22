@@ -1,0 +1,60 @@
+.jumbotron-fluid{
+	background-image: url(https://wallpaperplay.com/walls/full/f/f/2/67926.jpg); 
+	background-size: cover;
+}
+
+.card-container{
+	position: relative;
+	width: 15rem;
+	height: 280px;
+	perspective: 200rem;
+	padding-top: 80px;
+	margin-bottom: 5rem;
+}
+
+.card-container:hover .card-front{
+	transform: rotateY(180deg);
+}
+
+.card-container:hover .card-back{
+	transform: rotateY(0deg);
+}
+
+.card-back{
+	transform: rotateY(180deg);
+}
+
+.card{
+	transition: all 0.9s;
+	height: 100%;
+	width:100%;
+	backface-visibility: hidden;
+	position: absolute;
+}
+
+.card-back .card-body{
+	position: relative;
+}
+
+.card-body a{
+	position: absolute;
+	top:70%;
+	left:28%;
+}
+
+.card-body p{
+	display: block;
+	text-align: center;
+	color: white;  
+}
+
+.card-body pre{
+	font-size: 18;
+	color:white;
+	font-family:Times New Roman Georgia;
+	text-align: center;
+}
+
+.card-body h5{
+	text-align: center;
+}
